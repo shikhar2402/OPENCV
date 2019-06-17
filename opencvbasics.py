@@ -54,6 +54,7 @@ cv2.waitKey(0)
 cv2.destroyAllWindows()
  
 #same is the case for drawing circlerectangle or any other figure you desires
+#in case of circle you need to give a cordinate and the radius size ,colour, and thickness do it by yourself and reward yourself
 
 #lets move on turn to add text in image
 cv2.putText(img,'HELLO',(45,290),cv2.FONT_HERSHEY_COMPLEX,2,(100,170,0),3)
